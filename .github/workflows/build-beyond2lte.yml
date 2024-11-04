@@ -28,7 +28,7 @@ jobs:
         git submodule update --init --recursive
 
     - name: Checkout patches
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
       with:
         ref: build
         path: patches
